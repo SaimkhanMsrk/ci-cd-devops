@@ -41,7 +41,7 @@ node {
 	// sh "docker images | awk '{print $3}' | awk 'NR==2'"
 	//sh echo "Enter the docker lattest imageID"
 	//sh "read imageid"
-	   sh "docker tag 039d507e8571   saimkhanmsrk/myapplication" //must change your name and tag no
+	   sh "docker tag ea7185851b3b   saimkhanmsrk/myapplication" //must change your name and tag no
         sh "docker push   saimkhanmsrk/myapplication"
   }
 }
